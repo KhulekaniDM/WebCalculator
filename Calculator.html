@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="testMain.css">
+    <link rel="icon" type="image//icon" href="calculator.png">
+</head>
+
+<body>
+
+    <header>
+        <img src="calculator.png" width="10%" height="10%" alt="CalculatorImage">
+        <h1 >Welcome</h1>
+        <h1 >to my Calculator Webpage</h4>
+        
+        <nav style="text-align: center;">
+            <a href="#">Home</a>
+            <a href="https://duncanjunior.serguitosalemalegacy.co.za/DuncanIndex.html">Landing Page</a>
+            <a href="https://github.com/DankieDuncan/CodSoft_task1_Portfolio.git">Portfolio</a>
+        </nav>
+    </header>
+
+
+
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <br>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+    
+    <footer style="height: 50px;">
+        <p style="text-align: center;">Copyright &copy; Duncan-JNR 2024 . All rights reserved.
+            <br>
+            <a href="https://chat.whatsapp.com/BHMuBB3d1sF0EUEVM9nHGx"> <img type="image/icon" src="icons/whatsapp-color-icon.ico" width="25px" height="25px"></a>
+            <a href="www.linkedin.com/in/khulekani-mthembu-713599316"> <img type="image/icon" src="icons/linkedin-app-icon.ico" width="25px" height="25px"> </a>
+            <a href="https://x.com/Junior13Duncan"> <img type="image/icon" src="icons/x-social-media-logo-icon.ico" width="25px" height="25px"> </a>
+            <a href="https://www.facebook.com/"> <img type="image/icon" src="icons/facebook-round-color-icon.ico" width="25px" height="25px"> </a>
+            <a href="https://youtube.com/@dankieduncan4027?si=2VdEQB9JsXBrX5BX"> <img src="icons/youtube-color-icon.ico" width="25px" height="25px"> </a>
+            <a href="https://za.pinterest.com/"> <img src="icons/pinterest-round-color-icon.ico" width="25px" height="25px"> </a>
+         </p>
+    </footer>
+
+
+
+    <script src="calcJS.js"></script>
+</body>
+</html>
